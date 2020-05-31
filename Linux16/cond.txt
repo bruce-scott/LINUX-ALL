@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "think a number"
+read -p "if the number is less than 10 (y/n)" answer
+if [ $answer == "y" ]
+then
+	echo "your number may be between 0 to 9"
+else
+	echo "your number may be anything greater than 10"
+fi
